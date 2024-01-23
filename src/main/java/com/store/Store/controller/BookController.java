@@ -46,7 +46,7 @@ public class BookController {
         Book b = bookRepository.findById(id).orElse(null);
         if (b!=null){
             bookRepository.delete(b);
-            return "delete successfully";
+            return "delete successfully hjhj";
         }return "not found";
     }
 
